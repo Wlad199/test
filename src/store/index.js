@@ -17,6 +17,9 @@ const getters = {
   double(state) {
     return state.count * 2
   },
+  triple(state) {
+    return state.count * 3
+  },
 }
 
 export default createStore({
