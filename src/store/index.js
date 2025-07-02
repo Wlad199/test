@@ -13,7 +13,14 @@ const mutations = {
   },
 }
 
+const getters = {
+  double(state) {
+    return state.count * 2
+  },
+}
+
 export default createStore({
   state,
   mutations,
+  getters,
 })
